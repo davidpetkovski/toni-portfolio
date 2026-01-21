@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Switzer';
-  src: url('/fonts/Switzer.ttf') format('truetype');
+  src: url('/public/fonts/Switzer.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Switzer';
-  src: url('/fonts/Switzer-Italic.ttf') format('truetype');
+  src: url('/public/fonts/Switzer-Italic.ttf') format('truetype');
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;

@@ -3,7 +3,7 @@
 <main class="min-h-screen">
     <?php $disableGlassNav = true; include 'includes/nav.php'; ?>
     
-    <section class="relative flex items-center justify-center md:h-screen overflow-hidden bg-[#111112] bg-contain bg-no-repeat bg-top md:bg-cover md:bg-center pb-12 pt-36" style="background-color: #111112; background-image: url('public/images/hero-bg.png');">
+    <section class="relative flex items-center justify-center md:h-screen overflow-hidden bg-[#111112] bg-contain bg-no-repeat bg-top md:bg-cover md:bg-center pb-12 pt-36" style="background-color: #111112; background-image: url('/public/images/hero-bg.png');">
         <div class="h-full flex flex-col justify-end items-start w-full px-4 md:px-15">
             <div class="flex flex-col md:flex-row justify-between items-end w-full mb-12">
                 <div>
@@ -33,11 +33,11 @@
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
                         <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Web app</p>
                         <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed an internal tool to optimize design and dev workflows.</p>
-                        <img src="public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[100px] hidden md:block">
+                        <img src="/public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[100px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
-                        <img src="public/images/crm.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
-                        <img src="public/images/crm-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
+                        <img src="/public/images/crm.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
+                        <img src="/public/images/crm-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
                         <div class="absolute top-2 right-2 bg-[#F1F5FB] p-[10px] overflow-hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" class="transition-transform duration-500 ease-in-out group-hover:translate-x-[200%] group-hover:-translate-y-[200%]">
                                 <path d="M0 10.7297L8.93346 1.79634H3.10034V0H12V8.89966H10.2037V3.06656L1.27031 12L0 10.7297Z" fill="#111112"/>
@@ -52,11 +52,11 @@
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
                         <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Website</p>
                         <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Modernized a premium brand to streamline client event planning.</p>
-                        <img src="public/images/illu-logo.png" alt="illu-logo" class="max-w-[33px] hidden md:block">
+                        <img src="/public/images/illu-logo.png" alt="illu-logo" class="max-w-[33px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
-                        <img src="public/images/illu.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
-                        <img src="public/images/illu-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
+                        <img src="/public/images/illu.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
+                        <img src="/public/images/illu-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
                         <div class="absolute top-2 right-2 bg-[#F1F5FB] p-[10px] overflow-hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" class="transition-transform duration-500 ease-in-out group-hover:translate-x-[200%] group-hover:-translate-y-[200%]">
                                 <path d="M0 10.7297L8.93346 1.79634H3.10034V0H12V8.89966H10.2037V3.06656L1.27031 12L0 10.7297Z" fill="#111112"/>
@@ -71,11 +71,11 @@
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
                         <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">E-commerce</p>
                         <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed a customer-centric shop to drive brand engagement.</p>
-                        <img src="public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[64px] hidden md:block">
+                        <img src="/public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[64px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
-                        <img src="public/images/puff.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
-                        <img src="public/images/puff-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
+                        <img src="/public/images/puff.jpg" alt="hero-project-image" class="w-full h-full object-contain hidden md:block">
+                        <img src="/public/images/puff-mobile.jpg" alt="hero-project-image-alt" class="w-full h-full object-contain block md:hidden">
                         <div class="absolute top-2 right-2 bg-[#F1F5FB] p-[10px] overflow-hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" class="transition-transform duration-500 ease-in-out group-hover:translate-x-[200%] group-hover:-translate-y-[200%]">
                                 <path d="M0 10.7297L8.93346 1.79634H3.10034V0H12V8.89966H10.2037V3.06656L1.27031 12L0 10.7297Z" fill="#111112"/>
@@ -96,40 +96,40 @@
 
         <div class="grid grid-cols-6 gap-[20px] hidden md:grid">
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[132px] h-full object-contain">
+                <img src="/public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[132px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/copperleaf-cabinets-logo.png" alt="copperleaf-cabinets-logo" class="max-w-[140px] h-full object-contain">
+                <img src="/public/images/copperleaf-cabinets-logo.png" alt="copperleaf-cabinets-logo" class="max-w-[140px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[100px] h-full object-contain">
+                <img src="/public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[100px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/leanlogic-logo.png" alt="leanlogic-logo" class="max-w-[120px] h-full object-contain">
+                <img src="/public/images/leanlogic-logo.png" alt="leanlogic-logo" class="max-w-[120px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/alterego-logo.png" alt="alterego-logo" class="max-w-[112px] h-full object-contain">
+                <img src="/public/images/alterego-logo.png" alt="alterego-logo" class="max-w-[112px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/fragman-logo.svg.png" alt="fragman-logo" class="max-w-[140px] h-full object-contain">
+                <img src="/public/images/fragman-logo.svg.png" alt="fragman-logo" class="max-w-[140px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/kutura-logo.png" alt="kutura-logo" class="max-w-[100px] h-full object-contain">
+                <img src="/public/images/kutura-logo.png" alt="kutura-logo" class="max-w-[100px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/mosaic-logo.png" alt="mosaic-logo" class="max-w-[128px] h-full object-contain">
+                <img src="/public/images/mosaic-logo.png" alt="mosaic-logo" class="max-w-[128px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/rapid-response-logo.png" alt="rapid-response-logo" class="max-w-[140px] h-full object-contain">
+                <img src="/public/images/rapid-response-logo.png" alt="rapid-response-logo" class="max-w-[140px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/social-skin-logo.png" alt="social-skin-logo" class="max-w-[148px] h-full object-contain">
+                <img src="/public/images/social-skin-logo.png" alt="social-skin-logo" class="max-w-[148px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/storm-blockers-logo.png" alt="storm-blockers-logo" class="max-w-[120px] h-full object-contain">
+                <img src="/public/images/storm-blockers-logo.png" alt="storm-blockers-logo" class="max-w-[120px] h-full object-contain">
             </div>
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="public/images/international-van-lines-logo.png" alt="international-van-lines-logo" class="max-w-[156px] h-full object-contain">
+                <img src="/public/images/international-van-lines-logo.png" alt="international-van-lines-logo" class="max-w-[156px] h-full object-contain">
             </div>
         </div>
     </section>
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-crm.png" alt="my-work-crm" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-crm.png" alt="my-work-crm" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
             <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-leanlogic.png" alt="my-work-leanlogic" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-leanlogic.png" alt="my-work-leanlogic" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
             <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
@@ -228,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-illu.png" alt="my-work-illu" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-illu.png" alt="my-work-illu" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
             <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-kutura.png" alt="my-work-kutura" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-kutura.png" alt="my-work-kutura" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
             <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-puff.png" alt="my-work-puff" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-puff.png" alt="my-work-puff" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
             <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="public/images/my-work-machsfive.png" alt="my-work-machsfive" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
+                <img src="/public/images/my-work-machsfive.png" alt="my-work-machsfive" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </div>
         </div>
     </section>

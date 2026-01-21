@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="col-span-1 md:col-span-2">
-            <img src="../../public/images/kutura_case_study_1.jpg" alt="Kutura" class="w-full object-contain mb-8 md:mb-24">
+            <img src="/public/images/kutura_case_study_1.jpg" alt="Kutura" class="w-full object-contain mb-8 md:mb-24">
             <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
                 <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">The primary challenge was to create an educational platform that felt energetic and modern rather than academic and dry. Targeting Gen Z and young adults required a "vibe-first" approach—merging high-end aesthetics with lightning-fast performance and intuitive navigation to capture and hold the attention of digital natives.
                     <br> 
@@ -63,8 +63,8 @@
     </section>
 
     <section class="px-4 md:px-15 flex flex-col gap-3 md:gap-6 mb-16 md:mb-24">
-        <img src="../../public/images/kutura_case_study_2.jpg" alt="Kutura" class="w-full object-contain">
-        <img src="../../public/images/crm_case_study_3.jpg" alt="Kutura" class="w-full object-contain">
+        <img src="/public/images/kutura_case_study_2.jpg" alt="Kutura" class="w-full object-contain">
+        <img src="/public/images/crm_case_study_3.jpg" alt="Kutura" class="w-full object-contain">
     </section>
 
     <section>
@@ -92,9 +92,9 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• CRM Web App</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
-                    <img src="../../public/images/left-crm.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
-                    <img src="../../public/images/centre-crm.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
-                    <img src="../../public/images/right-crm.jpg" alt="CRM Web App" class="relative max-w-[172px] z-30">
+                    <img src="/public/images/left-crm.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
+                    <img src="/public/images/centre-crm.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
+                    <img src="/public/images/right-crm.jpg" alt="CRM Web App" class="relative max-w-[172px] z-30">
                 </div>
             </a>
 
@@ -102,9 +102,9 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Illu</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
-                    <img src="../../public/images/left-illu.jpg" alt="Illu" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
-                    <img src="../../public/images/centre-illu.jpg" alt="Illu" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
-                    <img src="../../public/images/right-illu.jpg" alt="Illu" class="relative max-w-[172px] z-30">
+                    <img src="/public/images/left-illu.jpg" alt="Illu" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
+                    <img src="/public/images/centre-illu.jpg" alt="Illu" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
+                    <img src="/public/images/right-illu.jpg" alt="Illu" class="relative max-w-[172px] z-30">
                 </div>
             </a>
 
@@ -112,9 +112,9 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Machsfive</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
-                    <img src="../../public/images/left-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
-                    <img src="../../public/images/centre-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
-                    <img src="../../public/images/right-machsfive.jpg" alt="CRM Web App" class="relative max-w-[172px] z-30">
+                    <img src="/public/images/left-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
+                    <img src="/public/images/centre-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
+                    <img src="/public/images/right-machsfive.jpg" alt="CRM Web App" class="relative max-w-[172px] z-30">
                 </div>
             </a>
 
@@ -122,9 +122,9 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Lean Logic</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
-                    <img src="../../public/images/left-lean.jpg" alt="Lean Logic" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
-                    <img src="../../public/images/centre-lean.jpg" alt="Lean Logic" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
-                    <img src="../../public/images/right-lean.jpg" alt="Lean Logic" class="relative max-w-[172px] z-30">
+                    <img src="/public/images/left-lean.jpg" alt="Lean Logic" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
+                    <img src="/public/images/centre-lean.jpg" alt="Lean Logic" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
+                    <img src="/public/images/right-lean.jpg" alt="Lean Logic" class="relative max-w-[172px] z-30">
                 </div>
             </a>
 
@@ -132,9 +132,9 @@
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Puff n Stuff</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
-                    <img src="../../public/images/left-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
-                    <img src="../../public/images/centre-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
-                    <img src="../../public/images/right-puff.jpg" alt="Puff n Stuff" class="relative max-w-[172px] z-30">
+                    <img src="/public/images/left-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
+                    <img src="/public/images/centre-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
+                    <img src="/public/images/right-puff.jpg" alt="Puff n Stuff" class="relative max-w-[172px] z-30">
                 </div>
             </a>
         </div>

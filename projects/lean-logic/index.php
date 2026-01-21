@@ -9,7 +9,7 @@
 
     <section class="grid grid-cols-1 md:grid-cols-3 px-4 md:px-15 py-6 md:py-8 gap-10 md:gap-14">
         <div class="col-span-1">
-            <p class="text-[20px] md:text-[24px] leading-[24px] md:leading-[30px] font-[500] text-[#F1F5FB] mb-8 md:mb-36">
+            <p class="text-[20px] md:text-[24px] leading-[24px] md:leading-[30px] font-[600] text-[#F1F5FB] mb-8 md:mb-36">
                 Lean Logic is a high-performance platform bridging B2B consulting with a proprietary SaaS app. I designed a high-clarity interface and custom graphics to unify service-based expertise with digital product efficiency.
             </p>
             <div class="flex gap-3 md:gap-4 flex-row flex-wrap md:flex-col items-start text-[16px] md:text-[20px] sticky top-32">
@@ -27,7 +27,7 @@
         <div class="col-span-1 md:col-span-2">
             <img src="/public/images/leanlogic_case_study_1.jpg" alt="Lean Logic" class="w-full object-contain mb-8 md:mb-24">
             <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
-                <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">The goal was to create a unified digital home for Lean Logic’s dual offerings: high-touch consulting and high-tech software. The challenge lay in designing a user experience that allows users to easily pivot between learning about "Onsite Training" and subscribing to the "Leansite" SaaS platform without losing the overall brand narrative of efficiency and growth.
+                <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[600] text-[#F1F5FB]">The goal was to create a unified digital home for Lean Logic’s dual offerings: high-touch consulting and high-tech software. The challenge lay in designing a user experience that allows users to easily pivot between learning about "Onsite Training" and subscribing to the "Leansite" SaaS platform without losing the overall brand narrative of efficiency and growth.
                     <br><br>
                     The Aesthetic-Usability Effect: Professional Authority In the consulting world, trust is the primary currency. I utilized a clean, structured UI and custom-made graphics to establish an immediate sense of professional authority. This application of the Aesthetic-Usability Effect ensures that potential clients perceive the brand as organized, capable, and modern.
                     <br><br>
@@ -40,7 +40,7 @@
                     Lean Logic is a comprehensive B2B platform that integrates consulting services with a proprietary SaaS tool. The design leverages custom visual storytelling and a hybrid architecture to streamline the user journey from operational assessment to digital implementation.
                 </p>
                 <div id="project-fade-overlay" class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#111112] via-[#111112]/90 to-transparent flex items-end justify-start pb-0 transition-all duration-300">
-                    <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[500] text-[24px] md:text-[32px] leading-[48px] py-1 font-[500] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
+                    <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[600] text-[24px] md:text-[32px] leading-[48px] py-1 font-[600] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
                         <span id="project-read-more-text">Read More</span>
                         <svg id="project-read-more-icon" class="transition-transform duration-300 size-[20px] md:size-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M11.995 0V24M24 11.995L0 11.995" stroke="#F1F5FB" stroke-width="3"/>
@@ -59,7 +59,7 @@
     <section>
         <div class="flex justify-between items-end mb-4 md:mb-12 px-4 md:px-15">
             <div>
-                <h3 class="font-[500] text-[#F1F5FB] text-[40px] md:text-[56px] leading-[64px] tracking-[-2%] mb-3 md:mb-5"><span class="hidden md:block">Discover more</span><span class="block md:hidden">Additional Projects</span></h3>
+                <h3 class="font-[600] text-[#F1F5FB] text-[40px] md:text-[56px] leading-[64px] tracking-[-2%] mb-3 md:mb-5"><span class="hidden md:block">Discover more</span><span class="block md:hidden">Additional Projects</span></h3>
                 <p class="text-[20px] text-[#9AA0A8] leading-[140%]">Explore more case studies I’ve worked on aswell</p>
             </div>   
             <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[600] w-full md:w-auto lets-connect-trigger">
@@ -73,13 +73,13 @@
             </button>        
         </div>
         <div class="flex flex-col relative" id="project-list">
-            <div id="custom-tooltip" class="fixed pointer-events-none opacity-0 transition-opacity duration-200 z-50 bg-[#F1F5FB] text-[#111112] px-4 py-2 rounded-full font-[500] text-[20px] transform translate-x-4 translate-y-4">
+            <div id="custom-tooltip" class="fixed pointer-events-none opacity-0 transition-opacity duration-200 z-50 bg-[#F1F5FB] text-[#111112] px-4 py-2 rounded-full font-[600] text-[20px] transform translate-x-4 translate-y-4">
                 View Project
             </div>
 
             <a href="/projects/crm" class="project-item group relative border-y border-[#2A2A2C] px-4 md:px-15 py-8 flex justify-between items-center transition-colors duration-500" data-project="CRM Web App">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• CRM Web App</p>
+                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• CRM Web App</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-crm.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-crm.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -89,7 +89,7 @@
 
             <a href="/projects/illu" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-8 flex justify-between items-center transition-colors duration-500" data-project="Illu">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Illu</p>
+                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Illu</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-illu.jpg" alt="Illu" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-illu.jpg" alt="Illu" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -99,7 +99,7 @@
             
             <a href="/projects/kutura" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-8 flex justify-between items-center transition-colors duration-500" data-project="Kutura">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Kutura</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Kutura</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-kutura.jpg" alt="Kutura" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-kutura.jpg" alt="Kutura" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -109,7 +109,7 @@
 
             <a href="/projects/machsfive" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-8 flex justify-between items-center transition-colors duration-500" data-project="Machsfive">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Machsfive</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Machsfive</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-machsfive.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -119,7 +119,7 @@
 
             <a href="/projects/puff-n-stuff" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-8 flex justify-between items-center transition-colors duration-500" data-project="Puff n Stuff">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Puff n Stuff</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Puff n Stuff</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">

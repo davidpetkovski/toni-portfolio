@@ -5,32 +5,32 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
 <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 transform <?php echo $navBgClass; ?>" style="color: <?php echo $navColor; ?>">
     <div class="container px-4 mx-auto">
         <div class="flex justify-between items-center py-6  md:-mx-18">
-            <a href="/" class="font-[500] text-[20px] text-current tracking-[0px] leading-[140%]">© Antonio Trpevski</a>
+            <a href="/" class="font-[600] text-[20px] text-current tracking-[0px] leading-[140%]">© Antonio Trpevski</a>
             <ul class="flex space-x-6 hidden md:flex">
                 <li class="flex items-center gap-2 group cursor-pointer">
                     <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 fill-current" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                         <circle cx="3" cy="3" r="3"/>
                     </svg>
-                    <a href="/work" class="font-[500] text-[20px] text-current tracking-[0px] leading-[140%]">My Work</a>
+                    <a href="/work" class="font-[600] text-[20px] text-current tracking-[0px] leading-[140%]">My Work</a>
                 </li>
                 <li class="flex items-center gap-2 group cursor-pointer">
                     <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 fill-current" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                         <circle cx="3" cy="3" r="3"/>
                     </svg>
-                    <a href="/about" class="font-[500] text-[20px] text-current tracking-[0px] leading-[140%]">About Me</a>
+                    <a href="/about" class="font-[600] text-[20px] text-current tracking-[0px] leading-[140%]">About Me</a>
                 </li>
                 <li class="flex items-center gap-2 group cursor-pointer">
                     <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 fill-current" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                         <circle cx="3" cy="3" r="3"/>
                     </svg>
-                    <a href="https://www.linkedin.com/in/antonio-trpevski-2b3994259/" target="_blank" class="font-[500] text-[20px] text-current tracking-[0px] leading-[140%]">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/antonio-trpevski-2b3994259/" target="_blank" class="font-[600] text-[20px] text-current tracking-[0px] leading-[140%]">Linkedin</a>
                 </li>
             </ul>
             <div class="items-center gap-2 group cursor-pointer hidden md:flex lets-connect-trigger">
                 <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 fill-current" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                     <circle cx="3" cy="3" r="3"/>
                 </svg>
-                <a href="#" class="font-[500] text-[20px] text-current tracking-[0px] leading-[140%]">Let's Connect</a>
+                <a href="#" class="font-[600] text-[20px] text-current tracking-[0px] leading-[140%]">Let's Connect</a>
             </div>
             
             <!-- Mobile Hamburger Button -->
@@ -47,7 +47,7 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
     <div class="container px-4 mx-auto h-full flex flex-col">
         <!-- Mobile Menu Header -->
         <div class="flex justify-between items-center py-6">
-            <span class="font-[500] text-[14px] text-[#F1F5FB] tracking-[0px] leading-[140%]">© Antonio Trpevski</span>
+            <span class="font-[600] text-[14px] text-[#F1F5FB] tracking-[0px] leading-[140%]">© Antonio Trpevski</span>
             <button id="close-mobile-menu" class="text-[#F1F5FB] hover:text-gray-300 transition-colors cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <rect x="2.12109" y="0.213135" width="30" height="3" rx="1.5" transform="rotate(45 2.12109 0.213135)" fill="#F1F5FB"/>
@@ -58,17 +58,17 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
 
         <!-- Mobile Menu Links -->
         <div class="flex flex-col gap-6 mt-6 flex-grow">
-            <a href="/work" class="text-[40px] leading-[110%] font-[500] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">My Work</a>
-            <a href="/about" class="text-[40px] leading-[110%] font-[500] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">About Me</a>
-            <a href="https://www.linkedin.com/in/antonio-trpevski-2b3994259/" target="_blank" class="text-[40px] leading-[110%] font-[500] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">LinkedIn</a>
-            <button class="text-[40px] leading-[110%] font-[500] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors text-left lets-connect-trigger" onclick="closeMobileMenu()">Let's Connect</button>
+            <a href="/work" class="text-[40px] leading-[110%] font-[600] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">My Work</a>
+            <a href="/about" class="text-[40px] leading-[110%] font-[600] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">About Me</a>
+            <a href="https://www.linkedin.com/in/antonio-trpevski-2b3994259/" target="_blank" class="text-[40px] leading-[110%] font-[600] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors">LinkedIn</a>
+            <button class="text-[40px] leading-[110%] font-[600] text-[#F1F5FB] hover:text-[#9AA0A8] transition-colors text-left lets-connect-trigger" onclick="closeMobileMenu()">Let's Connect</button>
         </div>
 
         <!-- Mobile Menu Project Card -->
         <div class="mb-4">
              <div class="bg-[#171718] p-4 cursor-pointer group">
-                <p class="text-[14px] text-[#9AA0A8] font-[400] mb-2">Web app</p>
-                <p class="text-[18px] text-[#F1F5FB] font-[400] leading-[140%] mb-4">Designed an internal tool to optimize design and dev workflows.</p>
+                <p class="text-[14px] text-[#9AA0A8] font-[500] mb-2">Web app</p>
+                <p class="text-[18px] text-[#F1F5FB] font-[500] leading-[140%] mb-4">Designed an internal tool to optimize design and dev workflows.</p>
                 <div class="relative h-[200px] w-full bg-[#111112] overflow-hidden flex items-end justify-center">
                     <img src="/public/images/crm.jpg" alt="CRM" class="max-w-[80%] object-contain shadow-lg translate-y-[20%]">
                     <div class="absolute top-3 right-3 bg-[#F1F5FB] p-2">
@@ -98,7 +98,7 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
 
         <!-- Header -->
         <div>
-            <h2 class="text-[40px] md:text-[48px] md:leading-[52px] font-[500] text-[#F1F5FB] mb-4">Let's Work Together</h2>
+            <h2 class="text-[40px] md:text-[48px] md:leading-[52px] font-[600] text-[#F1F5FB] mb-4">Let's Work Together</h2>
             <p class="text-[16px] md:text-[18px] text-[#9AA0A8] leading-[140%] max-w-[95%]">Whether you're starting fresh or improving a project, I'd love to help. Fill out the form and I'll be in touch soon.</p>
         </div>
 
@@ -122,11 +122,11 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
             </div>
             
             <div class="group">
-                <label class="block text-[#F1F5FB] text-[18px] font-[500] mb-2">Your message</label>
+                <label class="block text-[#F1F5FB] text-[18px] font-[600] mb-2">Your message</label>
                 <textarea name="message" rows="1" class="w-full bg-transparent border-b border-[#272829] py-3 text-[#F1F5FB] focus:outline-none focus:border-[#F1F5FB] transition-colors resize-none overflow-hidden placeholder-[#272829]" oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px'" required></textarea>
             </div>
 
-            <div id="form-status" class="hidden text-[16px] font-[500] mt-4"></div>
+            <div id="form-status" class="hidden text-[16px] font-[600] mt-4"></div>
 
             <button type="submit" id="submit-btn" class="mt-8 w-full bg-[#F1F5FB] text-[#111112] font-[600] text-[18px] py-2.5 rounded-full hover:bg-white transition-colors cursor-pointer">
                 • Send Message
@@ -137,15 +137,15 @@ $navBgClass = isset($disableGlassNav) && $disableGlassNav ? 'bg-transparent' : '
         <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 text-[#F1F5FB]">
              <div>
                 <p class="text-[#9AA0A8] text-sm mb-1">Email</p>
-                <a href="mailto:antoniotrpevski@gmail.com" class="text-[18px] font-[500] border-b border-transparent hover:border-[#F1F5FB] transition-colors">antoniotrpevski@gmail.com</a>
+                <a href="mailto:antoniotrpevski@gmail.com" class="text-[18px] font-[600] border-b border-transparent hover:border-[#F1F5FB] transition-colors">antoniotrpevski@gmail.com</a>
              </div>
               <div>
                 <p class="text-[#9AA0A8] text-sm mb-1">Phone</p>
-                <a href="tel:+38978448198" class="text-[18px] font-[500] border-b border-transparent hover:border-[#F1F5FB] transition-colors">389+ 78 448 198</a>
+                <a href="tel:+38978448198" class="text-[18px] font-[600] border-b border-transparent hover:border-[#F1F5FB] transition-colors">389+ 78 448 198</a>
              </div>
              <div class="md:col-span-2">
                 <p class="text-[#9AA0A8] text-sm mb-1">Address</p>
-                <p class="text-[18px] font-[500]">Bulevar Kuzman Josifovski Pitu br. 28/3-1</p>
+                <p class="text-[18px] font-[600]">Bulevar Kuzman Josifovski Pitu br. 28/3-1</p>
              </div>
         </div>
     </div>

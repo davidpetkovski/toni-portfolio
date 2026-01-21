@@ -7,7 +7,7 @@
         <div class="relative w-full max-w-[800px] aspect-square flex items-center justify-center">
              <!-- Center Text -->
              <div class="z-10 relative">
-                 <h1 class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] text-[#F1F5FB] mb-5 font-[500] text-center"><span class="block text-[#9AA0A8]">The designer</span>Behind the work</h1>
+                 <h1 class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] text-[#F1F5FB] mb-5 font-[600] text-center"><span class="block text-[#9AA0A8]">The designer</span>Behind the work</h1>
              </div>
              
              <!-- Image 1: 0 degrees (Right) -->
@@ -49,8 +49,8 @@
     <section class="px-4 md:px-15">
         <div class="flex flex-col md:flex-row items-start">
             <div class="mb-6 md:mb-0 md:sticky md:top-24">
-                <p class="text-[14px] leading-[140%] text-[#F1F5FB] font-[500] mb-2 hidden md:block">My name is...</p>
-                <p class="text-[24px] md:text-[40px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB] tracking-[-2%]">Antonio Trpevski, I’m a 22 year old UX/UI designer who’s passionate about creating modern, intuitive experiences. When I’m not designing, you’ll most likely find me at the gym working.</p>
+                <p class="text-[14px] leading-[140%] text-[#F1F5FB] font-[600] mb-2 hidden md:block">My name is...</p>
+                <p class="text-[24px] md:text-[40px] leading-[30px] md:leading-[48px] font-[600] text-[#F1F5FB] tracking-[-2%]">Antonio Trpevski, I’m a 22 year old UX/UI designer who’s passionate about creating modern, intuitive experiences. When I’m not designing, you’ll most likely find me at the gym working.</p>
             </div>
             <div class="flex flex-col gap-4 md:gap-6">
                 <img src="/public/images/about_pic_1.png" alt="about_pic_1" class="min-w-full md:min-w-[430px]" draggable="false">
@@ -64,7 +64,7 @@
         <div class="px-4 md:px-15 mb-12 w-full">
             <div class="flex justify-between items-start md:items-end w-full flex-col md:flex-row">
                 <div>
-                    <h2 class="text-[38px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] text-[#F1F5FB] mb-5 font-[500]"><span class="block text-[#9AA0A8]">My creative journey</span>Through design</h2>
+                    <h2 class="text-[38px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] text-[#F1F5FB] mb-5 font-[600]"><span class="block text-[#9AA0A8]">My creative journey</span>Through design</h2>
                 </div>
                 <div class="flex gap-4">
                     <button id="scrollLeft" class="w-[48px] h-[48px] bg-[#191919] flex items-center justify-center text-white hover:bg-[#F1F5FB] transition-colors cursor-pointer group">
@@ -100,7 +100,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2020
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -109,7 +109,7 @@
                 <div class="flex flex-row gap-20 md:gap-40">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_brainster.png" alt="Brainster" class="max-w-[200px] md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">I enrolled to the UX/UI Academy in Brainster</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">I enrolled to the UX/UI Academy in Brainster</p>
                     </div>
                     <img src="/public/images/creative_journey_2020.png" alt="Toni" class="max-w-[180px] md:max-w-[280px] object-contain z-10 mt-0 md:-mt-[25%] self-end md:self-auto">
                 </div>
@@ -133,7 +133,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2021
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -142,7 +142,7 @@
                 <div class="flex flex-row gap-20 md:gap-40">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_toni.png" alt="Toni" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Graduated the academy as a top student.</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Graduated the academy as a top student.</p>
                     </div>
                     <img src="/public/images/creative_journey_2021.png" alt="Toni" class="max-w-[200px] md:max-w-[280px] object-contain z-10 mt-0 md:-mt-[15%] self-end md:self-auto">
                 </div>
@@ -166,7 +166,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2022
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -175,11 +175,11 @@
                 <div class="flex flex-row gap-0 md:gap-16">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_google.png" alt="Google" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Enrolled in the Google UX Certificate program</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Enrolled in the Google UX Certificate program</p>
                     </div>
                     <div class="z-10 mt-0 md:-mt-[5%] flex flex-col gap-4 justify-center items-center">
                         <img src="/public/images/creative_journey_2022.png" alt="Toni" class="max-w-[180px] md:max-w-[315px] object-contain self-center md:self-auto md:ms-0">
-                        <p class="font-[500] text-white text-[16px] md:text-[20px] leading-[20px] md:leading-[24px] tracking-[-2%] max-w-[60%] md:max-w-[85%] text-center ms-0 md:-ms-[5%]">Completed the program the same year with the highest possible grade</p>
+                        <p class="font-[600] text-white text-[16px] md:text-[20px] leading-[20px] md:leading-[24px] tracking-[-2%] max-w-[60%] md:max-w-[85%] text-center ms-0 md:-ms-[5%]">Completed the program the same year with the highest possible grade</p>
                     </div>
                 </div>
             </div>
@@ -201,7 +201,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2023
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -210,7 +210,7 @@
                 <div class="flex flex-row gap-20 md:gap-20">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_freelancing.png" alt="Freelancing" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Began freelancing and working with clients</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Began freelancing and working with clients</p>
                     </div>
                     <img src="/public/images/creative_journey_2023.png" alt="Toni" class="max-w-[200px] md:max-w-[365px] object-contain z-10 md:self-auto">
                 </div>
@@ -234,7 +234,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2024
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -243,7 +243,7 @@
                 <div class="flex flex-row gap-20 md:gap-24">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_thrasker.png" alt="Thrasker" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Landed a UX/UI role at Thrasker</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">Landed a UX/UI role at Thrasker</p>
                     </div>
                     <img src="/public/images/creative_journey_2024.png" alt="Toni" class="max-w-[200px] md:max-w-[345px] object-contain z-10 mt-0 md:-mt-[10%] self-end md:self-auto">
                 </div>
@@ -267,7 +267,7 @@
                     <div class="h-[80%] md:h-[90%] w-[1px] bg-[#333335] mt-[20%] md:mt-[5%]"></div>
                 </div>
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[13.8%] md:-ml-[14%] bg-[#111112] w-fit px-2 z-10">
                     2025
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -276,7 +276,7 @@
                 <div class="flex flex-row gap-20 md:gap-24">
                     <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[12%] z-10 relative">
                         <img src="/public/images/journey_photo_independent.png" alt="Independent" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                        <p class="font-[500] text-white text-[20px] md:text-[23px] leading-[24px] md:leading-[28px] tracking-[-2%]">Promoted & trusted to lead projects independently</p>
+                        <p class="font-[600] text-white text-[20px] md:text-[23px] leading-[24px] md:leading-[28px] tracking-[-2%]">Promoted & trusted to lead projects independently</p>
                     </div>
                     <img src="/public/images/creative_journey_2025.png" alt="Toni" class="max-w-[200px] md:max-w-[365px] object-contain z-10 mt-0 md:-mt-[10%] self-end md:self-auto">
                 </div>
@@ -285,7 +285,7 @@
             <!-- Year 2026 -->
             <div class="min-w-[400px] max-h-[460px] md:min-h-[660px] border-l border-[#F1F5FB] px-4 md:px-9 snap-start flex flex-col gap-6 relative">
 
-                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[500] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[15%] md:-ml-[33.5%] bg-[#111112] w-fit px-2 z-10">
+                <span class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] font-[600] text-[#F1F5FB] block mb-4 md:mb-8 relative -ml-[15%] md:-ml-[33.5%] bg-[#111112] w-fit px-2 z-10">
                     2026
                     <span class="block ms-0 text-center mt-0 md:mt-5">
                         •
@@ -293,7 +293,7 @@
                 </span>
                 <div class="bg-[#191919] p-2 md:p-4 max-w-[215px] md:max-w-[312px] flex flex-col gap-4 -ms-[10%] md:-ms-[25%] z-10 relative">
                     <img src="/public/images/journey_photo_2026.png" alt="Brainster" class="max-w-full md:max-w-[280px] max-h-[280px] object-contain">
-                    <p class="font-[500] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">New goals and bigger projects to come</p>
+                    <p class="font-[600] text-white text-[20px] md:text-[24px] leading-[24px] md:leading-[28px] tracking-[-2%]">New goals and bigger projects to come</p>
                 </div>
             </div>
         </div>
@@ -302,7 +302,7 @@
     <section>
         <div class="flex justify-between items-end mb-4 md:mb-12 px-4 md:px-15">
             <div>
-                <h3 class="font-[500] text-[#F1F5FB] text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] mb-3 md:mb-5">Discover my projects</h3>
+                <h3 class="font-[600] text-[#F1F5FB] text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] mb-3 md:mb-5">Discover my projects</h3>
                 <p class="text-[18px] md:text-[20px] text-[#9AA0A8] leading-[140%]">Explore my case studies I’ve worked on</p>
             </div>   
             <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[600] w-full md:w-auto lets-connect-trigger">
@@ -316,13 +316,13 @@
             </button>     
         </div>
         <div class="flex flex-col relative" id="project-list">
-            <div id="custom-tooltip" class="fixed pointer-events-none opacity-0 transition-opacity duration-200 z-50 bg-[#F1F5FB] text-[#111112] px-4 py-2 rounded-full font-[500] text-[20px] transform translate-x-4 translate-y-4">
+            <div id="custom-tooltip" class="fixed pointer-events-none opacity-0 transition-opacity duration-200 z-50 bg-[#F1F5FB] text-[#111112] px-4 py-2 rounded-full font-[600] text-[20px] transform translate-x-4 translate-y-4">
                 View Project
             </div>
 
             <a href="/projects/crm" class="project-item group relative border-y border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="CRM Web App">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• CRM Web App</p>
+                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• CRM Web App</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-crm.jpg" alt="CRM Web App" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-crm.jpg" alt="CRM Web App" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -332,7 +332,7 @@
 
             <a href="/projects/illu" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="Illu">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Illu</p>
+                <p class="text-[20px] md:text-[32px] text-[#F1F5FB] md:text-[#9AA0A8] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Illu</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-illu.jpg" alt="Illu" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-illu.jpg" alt="Illu" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -342,7 +342,7 @@
 
             <a href="/projects/kutura" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="Kutura">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Kutura</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Kutura</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-kutura.jpg" alt="Kutura" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-kutura.jpg" alt="Kutura" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -352,7 +352,7 @@
 
             <a href="/projects/machsfive" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="Machsfive">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Machsfive</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Machsfive</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-machsfive.jpg" alt="Machsfive" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-machsfive.jpg" alt="Machsfive" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -362,7 +362,7 @@
 
             <a href="/projects/lean-logic" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="Lean Logic">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Lean Logic</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Lean Logic</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-lean.jpg" alt="Lean Logic" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-lean.jpg" alt="Lean Logic" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">
@@ -372,7 +372,7 @@
 
             <a href="/projects/puff-n-stuff" class="project-item group relative border-b border-[#2A2A2C] px-4 md:px-15 py-6 flex justify-between items-center transition-colors duration-500" data-project="Puff n Stuff">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#2A2A2C] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[500] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Puff n Stuff</p>
+                <p class="text-[20px] md:text-[32px] md:text-[#9AA0A8] text-[#F1F5FB] leading-[24px] md:leading-[40px] font-[600] group-hover:text-[#F1F5FB] transition-colors duration-300 relative z-40">• Puff n Stuff</p>
                 <div class="relative z-10 w-[172px] h-[120px] md:h-full hidden md:flex items-start justify-end">
                     <img src="/public/images/left-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-15 max-w-[172px] z-10 transition-transform duration-500 ease-out group-hover:-translate-x-[320px]">
                     <img src="/public/images/centre-puff.jpg" alt="Puff n Stuff" class="absolute top-0 right-7 max-w-[172px] z-20 transition-transform duration-500 ease-out group-hover:-translate-x-[162px]">

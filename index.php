@@ -7,14 +7,14 @@
         <div class="h-full flex flex-col justify-end items-start w-full px-4 md:px-15">
             <div class="flex flex-col md:flex-row justify-between items-end w-full mb-12">
                 <div>
-                    <p class="text-[18px] md:text-[20px] text-[#F1F5FB] font-[600] tracking-[0px] leading-[140%] mb-3">Hey I'm a...</p>
+                    <p class="text-[18px] md:text-[20px] text-[#F1F5FB] font-[500] tracking-[0px] leading-[140%] mb-3">Hey I'm a...</p>
 
                     <h1 class="text-[40px] md:text-[56px] leading-[48px] md:leading-[64px] tracking-[-2%] text-[#9A9FA8] mb-3 md:mb-5">UX/UI Designer <span class="text-[#F1F5FB] block">That helps brands grow</span></h1>  
 
-                    <p class="text-[#9AA0A8] text-[18px] md:text-[20px] font-[500] tracking-[0px] leading-[140%] mb-5 md:mb-0">I make brands look and work better with clear, purposeful design.</p>
+                    <p class="text-[#9AA0A8] text-[18px] md:text-[20px] font-[400] tracking-[0px] leading-[140%] mb-5 md:mb-0">I make brands look and work better with clear, purposeful design.</p>
                 </div>
                 <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4 w-full md:w-auto">
-                    <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[600] w-full md:w-auto lets-connect-trigger">
+                    <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto lets-connect-trigger">
                         <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                             <circle cx="3" cy="3" r="3" fill="#111112"/>
                         </svg>
@@ -23,16 +23,16 @@
                             <circle cx="3" cy="3" r="3" fill="#111112"/>
                         </svg>
                     </button>
-                    <a href="/work" class="flex justify-center items-center gap-2 cursor-pointer bg-transparent py-[10px] px-[20px] rounded-full text-[#F1F5FB] font-[600] border border-[#F1F5FB] w-full md:w-auto transition-colors duration-300 hover:bg-[#F1F5FB] hover:text-[#111112]">
+                    <a href="/work" class="flex justify-center items-center gap-2 cursor-pointer bg-transparent py-[10px] px-[20px] rounded-full text-[#F1F5FB] font-[500] border border-[#F1F5FB] w-full md:w-auto transition-colors duration-300 hover:bg-[#F1F5FB] hover:text-[#111112]">
                         View all of my work
                     </a>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-[20px] w-full">
-                <div class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
+                <a href="/projects/crm" class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
-                        <p class="text-[14px] text-[#9AA0A8] font-[500] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Web app</p>
-                        <p class="text-[18px] text-[#F1F5FB] font-[500] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed an internal tool to optimize design and dev workflows.</p>
+                        <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Web app</p>
+                        <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed an internal tool to optimize design and dev workflows.</p>
                         <img src="/public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[100px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
@@ -47,11 +47,11 @@
                             </svg>
                         </div>
                     </div>
-                </div>
-                <div class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
+                </a>
+                <a href="/projects/illu" class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
-                        <p class="text-[14px] text-[#9AA0A8] font-[500] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Website</p>
-                        <p class="text-[18px] text-[#F1F5FB] font-[500] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Modernized a premium brand to streamline client event planning.</p>
+                        <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">E-commerce</p>
+                        <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Modernized a premium brand to streamline client event planning.</p>
                         <img src="/public/images/illu-logo.png" alt="illu-logo" class="max-w-[33px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
@@ -66,11 +66,11 @@
                             </svg>
                         </div>
                     </div>
-                </div>
-                <div class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
+                </a>
+                <a href="/projects/puff-n-stuff" class="group col-span-1 bg-[#171718] p-[12px] md:ps-[16px] md:py-[8px] md:pe-[8px] grid grid-cols-1 md:grid-cols-2 cursor-pointer">
                     <div class="col-span-1 gap-[16px] md:my-[8px]">
-                        <p class="text-[14px] text-[#9AA0A8] font-[500] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">E-commerce</p>
-                        <p class="text-[18px] text-[#F1F5FB] font-[500] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed a customer-centric shop to drive brand engagement.</p>
+                        <p class="text-[14px] text-[#9AA0A8] font-[400] tracking-[-2%] leading-[140%] mb-[8px] md:mb-[16px]">Website</p>
+                        <p class="text-[18px] text-[#F1F5FB] font-[400] tracking-[-2%] leading-[140%] max-w-[90%] mb-4 md:mb-[60px]">Designed a customer-centric shop to drive brand engagement.</p>
                         <img src="/public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[64px] hidden md:block">
                     </div>
                     <div class="col-span-1 relative">
@@ -85,14 +85,14 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
     <section id="work" class="bg-[#111112] px-4 md:px-15 py-24">
-        <p class="text-[16px] md:text-[20px] text-[#F1F5FB] font-[600] tracking-[0px] leading-[140%] mb-3">Little about me...</p>
-        <p id="scroll-reveal-text" class="text-[24px] md:text-[40px] text-[#9aa0a8] font-[600] tracking-[-2%] leading-[30px] md:leading-[48px] w-full md:max-w-[80%] mb-12">I design apps and websites with a focus on clarity, usability, and clean execution, while building no-code websites in Framer with smooth interactions from concept to launch. Here are some of the brands I helped grow...</p>
+        <p class="text-[16px] md:text-[20px] text-[#F1F5FB] font-[500] tracking-[0px] leading-[140%] mb-3">Little about me...</p>
+        <p id="scroll-reveal-text" class="text-[24px] md:text-[40px] text-[#9aa0a8] font-[500] tracking-[-2%] leading-[30px] md:leading-[48px] w-full md:max-w-[80%] mb-12">I design apps and websites with a focus on clarity, usability, and clean execution, while building no-code websites in Framer with smooth interactions from concept to launch. Here are some of the brands I helped grow...</p>
 
         <div class="grid grid-cols-6 gap-[20px] hidden md:grid">
             <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
@@ -138,7 +138,7 @@
         <div class="flex justify-between items-center mb-4 md:mb-12 px-4 md:px-15">
             <h3 class="text-[40px] md:text-[56px] leading-[64px] tracking-[-2%] text-[#F1F5FB]">My selected work</h3>
             <div class="hidden md:flex items-center gap-[16px]">
-                    <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[600] w-full md:w-auto lets-connect-trigger">
+                    <button class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto lets-connect-trigger">
                         <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
                             <circle cx="3" cy="3" r="3" fill="#111112"/>
                         </svg>
@@ -147,7 +147,7 @@
                             <circle cx="3" cy="3" r="3" fill="#111112"/>
                         </svg>
                     </button>
-                    <a href="/work" class="flex justify-center items-center gap-2 cursor-pointer bg-transparent py-[10px] px-[20px] rounded-full text-[#F1F5FB] font-[600] border border-[#F1F5FB] w-full md:w-auto transition-colors duration-300 hover:bg-[#F1F5FB] hover:text-[#111112]">
+                    <a href="/work" class="flex justify-center items-center gap-2 cursor-pointer bg-transparent py-[10px] px-[20px] rounded-full text-[#F1F5FB] font-[500] border border-[#F1F5FB] w-full md:w-auto transition-colors duration-300 hover:bg-[#F1F5FB] hover:text-[#111112]">
                         View all of my work
                     </a>
             </div>
@@ -157,8 +157,8 @@
         <div class="flex flex-col">
             <a href="/projects/crm" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">CRM Web App</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">CRM Web App</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>
@@ -182,8 +182,8 @@
             </a>
             <a href="/projects/lean-logic" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">LeanLogic</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">LeanLogic</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>
@@ -207,8 +207,8 @@
             </a>
             <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Illu</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Illu</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>
@@ -232,8 +232,8 @@
             </a>
             <a href="/projects/kutura" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Kutura</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Kutura</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>
@@ -257,8 +257,8 @@
             </a>
             <a href="/projects/puff-n-stuff" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Puff n Stuff</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Puff n Stuff</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>
@@ -282,8 +282,8 @@
             </a>
             <a href="/projects/machsfive" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
-                    <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
-                        <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Machsfive</span>
+                    <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
+                        <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Machsfive</span>
                         <svg class="mt-1 inline-block align-middle mr-2 transition-all duration-500 md:w-0 md:h-0 md:opacity-0 md:mt-0 md:mr-0 md:group-hover:w-[8px] md:group-hover:h-[8px] md:group-hover:opacity-100 md:group-hover:mt-1 md:group-hover:mr-2" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                             <circle cx="4" cy="4" r="4" fill="#F1F5FB"/>
                         </svg>

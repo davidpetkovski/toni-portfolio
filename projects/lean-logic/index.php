@@ -26,7 +26,7 @@
         </div>
         <div class="col-span-1 md:col-span-2">
             <img src="/public/images/leanlogic_case_study_1.jpg" alt="Lean Logic" class="w-full object-contain mb-8 md:mb-24">
-            <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
+            <div id="project-text-container" class="relative max-h-[530px] overflow-hidden transition-all duration-500">
                 <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">The goal was to create a unified digital home for Lean Logic’s dual offerings: high-touch consulting and high-tech software. The challenge lay in designing a user experience that allows users to easily pivot between learning about "Onsite Training" and subscribing to the "Leansite" SaaS platform without losing the overall brand narrative of efficiency and growth.
                     <br><br>
                     The Aesthetic-Usability Effect: Professional Authority In the consulting world, trust is the primary currency. I utilized a clean, structured UI and custom-made graphics to establish an immediate sense of professional authority. This application of the Aesthetic-Usability Effect ensures that potential clients perceive the brand as organized, capable, and modern.

@@ -3,7 +3,7 @@
 <main class="min-h-screen bg-[#111112] text-[#F1F5FB]">
     <?php $navTextColor = '#F1F5FB'; include '../../includes/nav.php'; ?>
 
-    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex justify-between items-center gap-4 md:gap-6">
+    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 md:gap-6">
         <h1 class="text-[40px] md:text-[56px] leading-[64px] tracking-[-2%]">Puff 'N Stuff</h1>
         <a href="https://puffnstuff.com/" target="_blank" class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto">
             <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
@@ -35,7 +35,7 @@
         </div>
         <div class="col-span-1 md:col-span-2">
             <img src="/public/images/puff_n_stuff_case_study_1.jpg" alt="Puff n' stuff" class="w-full object-contain mb-8 md:mb-24">
-            <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
+            <div id="project-text-container" class="relative max-h-[530px] overflow-hidden transition-all duration-500">
                 <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">As one of the largest catering companies in the USA, Puff 'n Stuff required a website that could manage a high volume of diverse requests from weddings to corporate disaster relief without overwhelming the user. My goal was to modernize the visual language while creating a highly functional "Event Crafting" tool that simplifies the lead generation process.
                     <br>
                     <br>

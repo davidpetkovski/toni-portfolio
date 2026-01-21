@@ -3,7 +3,7 @@
 <main class="min-h-screen bg-[#111112] text-[#F1F5FB]">
     <?php $navTextColor = '#F1F5FB'; include '../../includes/nav.php'; ?>
 
-    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex justify-between items-center gap-4 md:gap-6">
+    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
         <h1 class="text-[40px] md:text-[56px] leading-[64px] tracking-[-2%]">Machsfive</h1>
         <a href="https://machshfiveart.com/" target="_blank" class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto">
             <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
@@ -35,7 +35,7 @@
         </div>
         <div class="col-span-1 md:col-span-2">
             <img src="/public/images/machsfive_case_study_1.jpg" alt="Machsfive" class="w-full object-contain mb-8 md:mb-24">
-            <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
+            <div id="project-text-container" class="relative max-h-[530px] overflow-hidden transition-all duration-500">
                 <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">The objective was to build a digital gallery that feels as evocative as the art it houses. Unlike a traditional website, this project was driven purely by UI and aesthetics. The goal was to create a dark, atmospheric environment that highlights the artist’s raw, expressionist style while providing a frictionless bridge for collectors and collaborators to get in touch.
                     <br>
                     <br>

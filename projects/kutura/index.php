@@ -26,7 +26,7 @@
         </div>
         <div class="col-span-1 md:col-span-2">
             <img src="/public/images/kutura_case_study_1.jpg" alt="Kutura" class="w-full object-contain mb-8 md:mb-24">
-            <div id="project-text-container" class="relative max-h-[560px] overflow-hidden transition-all duration-500">
+            <div id="project-text-container" class="relative max-h-[530px] overflow-hidden transition-all duration-500">
                 <p class="text-[24px] md:text-[32px] leading-[30px] md:leading-[48px] font-[500] text-[#F1F5FB]">The primary challenge was to create an educational platform that felt energetic and modern rather than academic and dry. Targeting Gen Z and young adults required a "vibe-first" approach—merging high-end aesthetics with lightning-fast performance and intuitive navigation to capture and hold the attention of digital natives.
                     <br> 
                     <br>
@@ -64,7 +64,7 @@
 
     <section class="px-4 md:px-15 flex flex-col gap-3 md:gap-6 mb-16 md:mb-24">
         <img src="/public/images/kutura_case_study_2.jpg" alt="Kutura" class="w-full object-contain">
-        <img src="/public/images/crm_case_study_3.jpg" alt="Kutura" class="w-full object-contain">
+        <img src="/public/images/kutura_case_study_3.jpg" alt="Kutura" class="w-full object-contain">
     </section>
 
     <section>

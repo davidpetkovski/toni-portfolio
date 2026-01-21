@@ -155,7 +155,7 @@
 
 
         <div class="flex flex-col">
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            <a href="/projects/crm" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">CRM Web App</span>
@@ -179,8 +179,8 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-crm.png" alt="my-work-crm" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            </a>
+            <a href="/projects/lean-logic" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">LeanLogic</span>
@@ -204,8 +204,8 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-leanlogic.png" alt="my-work-leanlogic" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            </a>
+            <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Illu</span>
@@ -229,8 +229,8 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-illu.png" alt="my-work-illu" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            </a>
+            <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Kutura</span>
@@ -254,8 +254,8 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-kutura.png" alt="my-work-kutura" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            </a>
+            <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Puff n Stuff</span>
@@ -279,8 +279,8 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-puff.png" alt="my-work-puff" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
-            <div class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            </a>
+            <a href="/projects/machsfive" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[400] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[500] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Machsfive</span>
@@ -304,7 +304,7 @@
                     </div>
                 </div>
                 <img src="/public/images/my-work-machsfive.png" alt="my-work-machsfive" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
-            </div>
+            </a>
         </div>
     </section>
 </main>

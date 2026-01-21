@@ -4,12 +4,12 @@
     "src": "src/css/app.css",
     "isEntry": true
   },
-  "src/fonts/Switzer-Variable.ttf": {
-    "file": "assets/Switzer-Variable-CC1nzX62.ttf",
-    "src": "src/fonts/Switzer-Variable.ttf"
+  "src/fonts/Switzer.ttf": {
+    "file": "assets/Switzer-CC1nzX62.ttf",
+    "src": "src/fonts/Switzer.ttf"
   },
-  "src/fonts/Switzer-VariableItalic.ttf": {
-    "file": "assets/Switzer-VariableItalic-Ds7PGXe3.ttf",
-    "src": "src/fonts/Switzer-VariableItalic.ttf"
+  "src/fonts/SwitzerItalic.ttf": {
+    "file": "assets/SwitzerItalic-Ds7PGXe3.ttf",
+    "src": "src/fonts/SwitzerItalic.ttf"
   }
 }

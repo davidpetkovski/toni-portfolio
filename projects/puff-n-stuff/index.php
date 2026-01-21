@@ -54,14 +54,14 @@
                     Puff 'n Stuff is a large-scale catering redesign that balances legacy branding with modern UX. The result is a sophisticated, high-performance platform that simplifies complex event planning for thousands of clients across the US.
                 </p>
                 <div id="project-fade-overlay" class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#111112] via-[#111112]/90 to-transparent flex items-end justify-start pb-0 transition-all duration-300">
-                    <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[500] text-[24px] md:text-[32px] leading-[48px] py-1 font-[500] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
-                        <span id="project-read-more-text">Read More</span>
-                        <svg id="project-read-more-icon" class="transition-transform duration-300 size-[20px] md:size-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M11.995 0V24M24 11.995L0 11.995" stroke="#F1F5FB" stroke-width="3"/>
-                        </svg>
-                    </button>
+                    </div>
                 </div>
-            </div>
+                <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[500] text-[24px] md:text-[32px] leading-[48px] py-1 font-[500] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
+                    <span id="project-read-more-text">Read More</span>
+                    <svg id="project-read-more-icon" class="transition-transform duration-300 size-[20px] md:size-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M11.995 0V24M24 11.995L0 11.995" stroke="#F1F5FB" stroke-width="3"/>
+                    </svg>
+                </button>
         </div>
     </section>
 
@@ -152,16 +152,16 @@
             const btnText = document.getElementById('project-read-more-text');
             const btnIcon = document.getElementById('project-read-more-icon');
             
-            if (container.classList.contains('max-h-[560px]')) {
+            if (container.classList.contains('max-h-[530px]')) {
                 // Expand
-                container.classList.remove('max-h-[560px]', 'overflow-hidden');
+                container.classList.remove('max-h-[530px]', 'overflow-hidden');
                 overlay.classList.remove('absolute', 'bottom-0', 'bg-gradient-to-t', 'from-[#111112]', 'via-[#111112]/90', 'to-transparent');
                 overlay.classList.add('mt-8');
                 btnText.textContent = 'Read Less';
                 btnIcon.style.transform = 'rotate(45deg)'; 
             } else {
                 // Collapse
-                container.classList.add('max-h-[560px]', 'overflow-hidden');
+                container.classList.add('max-h-[530px]', 'overflow-hidden');
                 overlay.classList.add('absolute', 'bottom-0', 'bg-gradient-to-t', 'from-[#111112]', 'via-[#111112]/90', 'to-transparent');
                 overlay.classList.remove('mt-8');
                 btnText.textContent = 'Read More';

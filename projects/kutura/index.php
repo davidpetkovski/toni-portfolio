@@ -3,8 +3,17 @@
 <main class="min-h-screen bg-[#111112] text-[#F1F5FB]">
     <?php $navTextColor = '#F1F5FB'; include '../../includes/nav.php'; ?>
 
-    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8">
+    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-center">
         <h1 class="text-[40px] md:text-[56px] leading-[64px] tracking-[-2%]">Kutura</h1>
+        <a href="https://kutura.mk/" target="_blank" class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto">
+            <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="3" fill="#111112"/>
+            </svg>
+            Live Website
+            <svg class="transition-all duration-300 ease-in-out w-0 ml-0 opacity-0 group-hover:w-[6px] group-hover:ml-2 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="3" fill="#111112"/>
+            </svg>
+        </a>
     </section>
 
     <section class="grid grid-cols-1 md:grid-cols-3 px-4 md:px-15 py-6 md:py-8 gap-10 md:gap-14">
@@ -51,14 +60,14 @@
                     Kutura launched with a digital presence that stands out in the crowded EdTech market. The result is a vibrant, "action-oriented" ecosystem that doesn't just teach design, it embodies good design. The platform successfully converts casual browsers into motivated students by speaking their visual language.
                 </p>
                 <div id="project-fade-overlay" class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#111112] via-[#111112]/90 to-transparent flex items-end justify-start pb-0 transition-all duration-300">
-                    <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[500] text-[24px] md:text-[32px] leading-[48px] py-1 font-[500] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
-                        <span id="project-read-more-text">Read More</span>
-                        <svg id="project-read-more-icon" class="transition-transform duration-300 size-[20px] md:size-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M11.995 0V24M24 11.995L0 11.995" stroke="#F1F5FB" stroke-width="3"/>
-                        </svg>
-                    </button>
                 </div>
             </div>
+                <button id="project-read-more-btn" onclick="toggleReadMore()" class="text-[#F1F5FB] font-[500] text-[24px] md:text-[32px] leading-[48px] py-1 font-[500] cursor-pointer flex items-center gap-4 border-b-[3px] border-transparent hover:border-[#F1F5FB] transition-all duration-300">
+                    <span id="project-read-more-text">Read More</span>
+                    <svg id="project-read-more-icon" class="transition-transform duration-300 size-[20px] md:size-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M11.995 0V24M24 11.995L0 11.995" stroke="#F1F5FB" stroke-width="3"/>
+                    </svg>
+                </button>
         </div>
     </section>
 
@@ -149,16 +158,16 @@
             const btnText = document.getElementById('project-read-more-text');
             const btnIcon = document.getElementById('project-read-more-icon');
             
-            if (container.classList.contains('max-h-[560px]')) {
+            if (container.classList.contains('max-h-[530px]')) {
                 // Expand
-                container.classList.remove('max-h-[560px]', 'overflow-hidden');
+                container.classList.remove('max-h-[530px]', 'overflow-hidden');
                 overlay.classList.remove('absolute', 'bottom-0', 'bg-gradient-to-t', 'from-[#111112]', 'via-[#111112]/90', 'to-transparent');
                 overlay.classList.add('mt-8');
                 btnText.textContent = 'Read Less';
                 btnIcon.style.transform = 'rotate(45deg)'; 
             } else {
                 // Collapse
-                container.classList.add('max-h-[560px]', 'overflow-hidden');
+                container.classList.add('max-h-[530px]', 'overflow-hidden');
                 overlay.classList.add('absolute', 'bottom-0', 'bg-gradient-to-t', 'from-[#111112]', 'via-[#111112]/90', 'to-transparent');
                 overlay.classList.remove('mt-8');
                 btnText.textContent = 'Read More';

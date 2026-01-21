@@ -230,7 +230,7 @@
                 </div>
                 <img src="/public/images/my-work-illu.png" alt="my-work-illu" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </a>
-            <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            <a href="/projects/kutura" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Kutura</span>
@@ -255,7 +255,7 @@
                 </div>
                 <img src="/public/images/my-work-kutura.png" alt="my-work-kutura" class="md:w-[430px] shrink-0 order-1 md:order-2 mb-5 md:mb-0">
             </a>
-            <a href="/projects/illu" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
+            <a href="/projects/puff-n-stuff" class="group flex md:flex-row flex-col md:bg-gradient-to-b from-[#1b1b1c] to-[#111112] px-4 md:px-15 py-4 md:py-10 border-y border-[#2A2A2C] gap-[10%]">
                 <div class="flex-1 flex flex-col justify-between order-2 md:order-1">
                     <p class="font-[500] text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] tracking-[-2%] text-[#9AA0A8] mb-6 md:mb-0">
                         <span class="font-[600] text-[#F1F5FB] inline-block align-middle mr-2 md:mr-3">Puff n Stuff</span>

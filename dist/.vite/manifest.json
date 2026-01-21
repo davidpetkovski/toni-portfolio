@@ -1,15 +1,15 @@
 {
+  "public/fonts/Switzer-Italic.ttf": {
+    "file": "assets/Switzer-Italic-Ds7PGXe3.ttf",
+    "src": "public/fonts/Switzer-Italic.ttf"
+  },
+  "public/fonts/Switzer.ttf": {
+    "file": "assets/Switzer-CC1nzX62.ttf",
+    "src": "public/fonts/Switzer.ttf"
+  },
   "src/css/app.css": {
-    "file": "assets/app-CIws5mIG.css",
+    "file": "assets/app-C88VY7-4.css",
     "src": "src/css/app.css",
     "isEntry": true
-  },
-  "src/fonts/Switzer.ttf": {
-    "file": "assets/Switzer-CC1nzX62.ttf",
-    "src": "src/fonts/Switzer.ttf"
-  },
-  "src/fonts/SwitzerItalic.ttf": {
-    "file": "assets/SwitzerItalic-Ds7PGXe3.ttf",
-    "src": "src/fonts/SwitzerItalic.ttf"
   }
 }

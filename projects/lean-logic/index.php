@@ -3,8 +3,17 @@
 <main class="min-h-screen bg-[#111112] text-[#F1F5FB]">
     <?php $navTextColor = '#F1F5FB'; include '../../includes/nav.php'; ?>
 
-    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8">
+    <section class="pt-32 md:pt-52 px-4 md:px-15 border-b border-[#3E3F41] pb-4 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-center">
         <h1 class="text-[40px] md:text-[56px] leading-[64px] tracking-[-2%]">Lean Logic</h1>
+        <a href="https://lean-logic-services.netlify.app/" target="_blank" class="group flex justify-center items-center cursor-pointer bg-[#F1F5FB] py-[10px] px-[20px] rounded-full text-[#111112] font-[500] w-full md:w-auto">
+            <svg class="transition-all duration-300 ease-in-out w-[6px] mr-2 opacity-100 group-hover:w-0 group-hover:mr-0 group-hover:opacity-0" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="3" fill="#111112"/>
+            </svg>
+            Live Website
+            <svg class="transition-all duration-300 ease-in-out w-0 ml-0 opacity-0 group-hover:w-[6px] group-hover:ml-2 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="3" fill="#111112"/>
+            </svg>
+        </a>
     </section>
 
     <section class="grid grid-cols-1 md:grid-cols-3 px-4 md:px-15 py-6 md:py-8 gap-10 md:gap-14">

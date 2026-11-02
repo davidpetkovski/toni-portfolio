@@ -55,7 +55,7 @@
             <div class="flex flex-col gap-4 md:gap-6">
                 <img src="/public/images/about_pic_1.png" alt="about_pic_1" class="min-w-full md:min-w-[430px]" draggable="false">
                 <img src="/public/images/about_pic_2.jpg" alt="about_pic_1" class="min-w-full md:min-w-[430px]" draggable="false">
-                <img src="/public/images/about_pic_3.png" alt="about_pic_1" class="min-w-full md:min-w-[430px]" draggable="false">
+                <img src="/public/images/about_pic_3.jpg" alt="about_pic_1" class="min-w-full md:min-w-[430px]" draggable="false">
             </div>
         </div>
     </section>

@@ -92,45 +92,53 @@
 
     <section id="work" class="bg-[#111112] px-4 md:px-15 py-24">
         <p class="text-[16px] md:text-[20px] text-[#F1F5FB] font-[500] tracking-[0px] leading-[140%] mb-3">Little about me...</p>
-        <p id="scroll-reveal-text" class="text-[24px] md:text-[40px] text-[#9aa0a8] font-[500] tracking-[-2%] leading-[30px] md:leading-[48px] w-full md:max-w-[80%] mb-12">I design apps and websites with a focus on clarity, usability, and clean execution, while building no-code websites in Framer with smooth interactions from concept to launch. Here are some of the brands I helped grow...</p>
+        <p id="scroll-reveal-text" class="text-[24px] md:text-[40px] text-[#9aa0a8] font-[500] tracking-[-2%] leading-[30px] md:leading-[48px] w-full md:max-w-[80%] mb-6 md:mb-12">I design apps and websites <img src="/public/images/figma.png" alt="Figma" class="hidden md:inline-block h-[0.8em] w-[0.8em] align-[-0.1em] mx-[0.12em] rounded-[6px] object-cover"> with a focus on clarity, usability, and <img src="/public/images/ps.png" alt="Photoshop" class="hidden md:inline-block h-[0.8em] w-[0.8em] align-[-0.1em] mx-[0.12em] rounded-[6px] object-cover"> clean execution, while building no-code websites in Framer with smooth <img src="/public/images/logo1.png" alt="Framer" class="hidden md:inline-block h-[0.8em] w-[0.8em] align-[-0.1em] mx-[0.12em] rounded-[6px] object-cover"> interactions from concept to launch. Here are some of the brands I helped grow...</p>
+        <div class="flex items-center gap-2 mb-12 md:hidden" aria-label="Design tools">
+            <img src="/public/images/logo1.png" alt="Framer" class="h-8 w-8 rounded-[6px] object-cover">
+            <img src="/public/images/figma.png" alt="Figma" class="h-8 w-8 rounded-[6px] object-cover">
+            <img src="/public/images/ps.png" alt="Photoshop" class="h-8 w-8 rounded-[6px] object-cover">
+        </div>
 
-        <div class="grid grid-cols-6 gap-[20px] hidden md:grid">
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/thrasker-logo.png" alt="thrasker-logo" class="max-w-[132px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/copperleaf-cabinets-logo.png" alt="copperleaf-cabinets-logo" class="max-w-[140px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/puff-n-stuff-logo.png" alt="puff-n-stuff-logo" class="max-w-[100px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/leanlogic-logo.png" alt="leanlogic-logo" class="max-w-[120px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/alterego-logo.png" alt="alterego-logo" class="max-w-[112px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/fragman-logo.svg.png" alt="fragman-logo" class="max-w-[140px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/kutura-logo.png" alt="kutura-logo" class="max-w-[100px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/mosaic-logo.png" alt="mosaic-logo" class="max-w-[128px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/rapid-response-logo.png" alt="rapid-response-logo" class="max-w-[140px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/social-skin-logo.png" alt="social-skin-logo" class="max-w-[148px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/storm-blockers-logo.png" alt="storm-blockers-logo" class="max-w-[120px] h-full object-contain">
-            </div>
-            <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
-                <img src="/public/images/international-van-lines-logo.png" alt="international-van-lines-logo" class="max-w-[156px] h-full object-contain">
-            </div>
+        <?php
+        $brandLogos = [
+            ['src' => '/public/images/thrasker-logo.png', 'alt' => 'thrasker-logo', 'max' => 'max-w-[132px]'],
+            ['src' => '/public/images/copperleaf-cabinets-logo.png', 'alt' => 'copperleaf-cabinets-logo', 'max' => 'max-w-[140px]'],
+            ['src' => '/public/images/puff-n-stuff-logo.png', 'alt' => 'puff-n-stuff-logo', 'max' => 'max-w-[100px]'],
+            ['src' => '/public/images/leanlogic-logo.png', 'alt' => 'leanlogic-logo', 'max' => 'max-w-[120px]'],
+            ['src' => '/public/images/alterego-logo.png', 'alt' => 'alterego-logo', 'max' => 'max-w-[112px]'],
+            ['src' => '/public/images/fragman-logo.svg.png', 'alt' => 'fragman-logo', 'max' => 'max-w-[140px]'],
+            ['src' => '/public/images/kutura-logo.png', 'alt' => 'kutura-logo', 'max' => 'max-w-[100px]'],
+            ['src' => '/public/images/mosaic-logo.png', 'alt' => 'mosaic-logo', 'max' => 'max-w-[128px]'],
+            ['src' => '/public/images/rapid-response-logo.png', 'alt' => 'rapid-response-logo', 'max' => 'max-w-[140px]'],
+            ['src' => '/public/images/social-skin-logo.png', 'alt' => 'social-skin-logo', 'max' => 'max-w-[148px]'],
+            ['src' => '/public/images/storm-blockers-logo.png', 'alt' => 'storm-blockers-logo', 'max' => 'max-w-[120px]'],
+            ['src' => '/public/images/international-van-lines-logo.png', 'alt' => 'international-van-lines-logo', 'max' => 'max-w-[156px]'],
+        ];
+        $brandLogoRows = [array_slice($brandLogos, 0, 6), array_slice($brandLogos, 6, 6)];
+        ?>
+
+        <div class="hidden md:grid grid-cols-6 gap-[20px]">
+            <?php foreach ($brandLogos as $logo): ?>
+                <div class="col-span-1 bg-[#191919] flex justify-center min-h-[148px]">
+                    <img src="<?= $logo['src'] ?>" alt="<?= $logo['alt'] ?>" class="<?= $logo['max'] ?> h-full object-contain">
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+        <div class="md:hidden -mx-4 flex flex-col gap-3 overflow-hidden" aria-label="Brands">
+            <?php foreach ($brandLogoRows as $rowIndex => $rowLogos): ?>
+                <div class="logo-marquee <?= $rowIndex === 1 ? 'logo-marquee-offset' : '' ?>">
+                    <div class="logo-marquee-track <?= $rowIndex === 1 ? 'logo-marquee-track-reverse' : '' ?>">
+                        <?php for ($copy = 0; $copy < 2; $copy++): ?>
+                            <?php foreach ($rowLogos as $logo): ?>
+                                <div class="shrink-0 bg-[#191919] flex justify-center items-center h-[110px] w-[148px]"<?= $copy === 1 ? ' aria-hidden="true"' : '' ?>>
+                                    <img src="<?= $logo['src'] ?>" alt="<?= $copy === 1 ? '' : $logo['alt'] ?>" class="max-w-[100px] h-full object-contain px-3">
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endfor; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </section>
 
@@ -344,13 +352,19 @@
             if (revealText) {
                 // Initialize split text if not done yet
                 if (!revealText.dataset.split) {
-                    const text = revealText.textContent;
+                    const nodes = Array.from(revealText.childNodes);
                     revealText.innerHTML = '';
-                    text.split('').forEach(char => {
-                        const span = document.createElement('span');
-                        span.textContent = char;
-                        span.style.transition = 'color 0.1s ease'; // Smooth transition
-                        revealText.appendChild(span);
+                    nodes.forEach(node => {
+                        if (node.nodeType === Node.TEXT_NODE) {
+                            node.textContent.split('').forEach(char => {
+                                const span = document.createElement('span');
+                                span.textContent = char;
+                                span.style.transition = 'color 0.1s ease';
+                                revealText.appendChild(span);
+                            });
+                        } else if (node.nodeType === Node.ELEMENT_NODE) {
+                            revealText.appendChild(node);
+                        }
                     });
                     revealText.dataset.split = "true";
                 }

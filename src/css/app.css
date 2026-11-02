@@ -39,3 +39,40 @@
     font-family: var(--font-sans);
   }
 }
+
+@keyframes logo-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.logo-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  padding-inline: 12px;
+  animation: logo-marquee 28s linear infinite;
+}
+
+.logo-marquee-track-reverse {
+  animation-duration: 34s;
+  animation-direction: reverse;
+}
+
+.logo-marquee-offset .logo-marquee-track {
+  animation-delay: -12s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee-track {
+    animation: none;
+  }
+}
